@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAVMss", "WAVMss\WAVMss.csproj", "{5633A575-96DB-4DFE-B4B2-3FF0B5132507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Media.Controls", "Media.Controls\Media.Controls.csproj", "{593A840A-B056-4E42-9D0B-EC27A9FB0567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Media.Library", "Media.Library\Media.Library.csproj", "{78A2A74A-1197-432D-8BAB-5C32AFE1273C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Media.Common", "Media.Common\Media.Common.csproj", "{B3B8B2CC-E5E1-4604-BA5B-7436C2E459FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioPlayer", "Media\AudioPlayer.csproj", "{89791F1D-DC81-4433-91FF-DAE5AED7876B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Media.Web", "Media.Web\Media.Web.csproj", "{793F55AA-3B95-4654-89DC-DB1D3C312D22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5633A575-96DB-4DFE-B4B2-3FF0B5132507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5633A575-96DB-4DFE-B4B2-3FF0B5132507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5633A575-96DB-4DFE-B4B2-3FF0B5132507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5633A575-96DB-4DFE-B4B2-3FF0B5132507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593A840A-B056-4E42-9D0B-EC27A9FB0567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593A840A-B056-4E42-9D0B-EC27A9FB0567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593A840A-B056-4E42-9D0B-EC27A9FB0567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593A840A-B056-4E42-9D0B-EC27A9FB0567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A2A74A-1197-432D-8BAB-5C32AFE1273C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A2A74A-1197-432D-8BAB-5C32AFE1273C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A2A74A-1197-432D-8BAB-5C32AFE1273C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A2A74A-1197-432D-8BAB-5C32AFE1273C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B8B2CC-E5E1-4604-BA5B-7436C2E459FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B8B2CC-E5E1-4604-BA5B-7436C2E459FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B8B2CC-E5E1-4604-BA5B-7436C2E459FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B8B2CC-E5E1-4604-BA5B-7436C2E459FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89791F1D-DC81-4433-91FF-DAE5AED7876B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89791F1D-DC81-4433-91FF-DAE5AED7876B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89791F1D-DC81-4433-91FF-DAE5AED7876B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89791F1D-DC81-4433-91FF-DAE5AED7876B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793F55AA-3B95-4654-89DC-DB1D3C312D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793F55AA-3B95-4654-89DC-DB1D3C312D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793F55AA-3B95-4654-89DC-DB1D3C312D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793F55AA-3B95-4654-89DC-DB1D3C312D22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

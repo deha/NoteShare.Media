@@ -1,0 +1,5 @@
+D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\Media.Common\Bin\Debug\Media.Common.dll
+D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\Media.Common\Bin\Debug\Media.Common.pdb
+D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\Media.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\Media.Common\obj\Debug\Media.Common.dll
+D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\Media.Common\obj\Debug\Media.Common.pdb

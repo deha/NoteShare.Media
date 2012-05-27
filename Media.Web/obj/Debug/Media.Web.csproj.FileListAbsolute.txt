@@ -1,0 +1,5 @@
+D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\Media.Web\bin\Media.Web.dll
+D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\Media.Web\bin\Media.Web.pdb
+D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\Media.Web\obj\Debug\ResolveAssemblyReference.cache
+D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\Media.Web\obj\Debug\Media.Web.dll
+D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\Media.Web\obj\Debug\Media.Web.pdb
