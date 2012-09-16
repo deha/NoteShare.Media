@@ -1,5 +1,0 @@
-D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\WAVMss\Bin\Debug\WAVMss.dll
-D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\WAVMss\Bin\Debug\WAVMss.pdb
-D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\WAVMss\obj\Debug\ResolveAssemblyReference.cache
-D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\WAVMss\obj\Debug\WAVMss.dll
-D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\WAVMss\obj\Debug\WAVMss.pdb

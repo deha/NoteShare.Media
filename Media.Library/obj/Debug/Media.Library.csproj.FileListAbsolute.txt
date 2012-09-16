@@ -1,5 +1,0 @@
-D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\Media.Library\Bin\Debug\Media.Library.dll
-D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\Media.Library\Bin\Debug\Media.Library.pdb
-D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\Media.Library\obj\Debug\ResolveAssemblyReference.cache
-D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\Media.Library\obj\Debug\Media.Library.dll
-D:\Studia\Semestr VIII\Projekt Grupowy\SilverlightVideoCapture\Media.Library\obj\Debug\Media.Library.pdb
