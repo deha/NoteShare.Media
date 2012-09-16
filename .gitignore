@@ -8,10 +8,7 @@
 /Media.Library/Bin
 /WAVMss/obj
 /WAVMss/Bin
-/Media.Web\bin/Media.Web.dll
-/Media.Web\bin/Media.Web.pdb
-/Media.Web\obj\Debug/DesignTimeResolveAssemblyReferencesInput.cache
-/Media.Web\obj\Debug/Media.Web.csproj.FileListAbsolute.txt
-/Media.Web\obj\Debug/Media.Web.dll
-/Media.Web\obj\Debug/Media.Web.pdb
 /Media.Web/ClientBin
+/Media.Web/obj
+/Media.Web/bin
+
