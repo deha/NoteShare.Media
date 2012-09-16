@@ -31,6 +31,14 @@ namespace Media.Controls
                 m_sink.CaptureSource = m_source;
                 m_source.Start();
                 recCircle.Visibility = Visibility.Visible;
+
+                this.start_button.IsEnabled = false;
+                this.stop_button.IsEnabled = true;
+            }
+            else
+            {
+                this.start_button.IsEnabled = true;
+                this.stop_button.IsEnabled = false;
             }
         }
 
@@ -69,6 +77,9 @@ namespace Media.Controls
             {
                 this.WriteToStream(dialog.OpenFile());
             }
+
+            this.start_button.IsEnabled = true;
+            this.stop_button.IsEnabled = false;
         }
     }
 }

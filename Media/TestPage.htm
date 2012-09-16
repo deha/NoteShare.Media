@@ -4,13 +4,14 @@
 		<title></title>
 	</head>
 	<body>
-	    <object data="data:application/x-silverlight-2," type="application/x-silverlight-2" width="500" height="200">
-          <param name="initParams" value="mode=play, path=http://localhost/test.wav" />  
-		  <param name="source" value="Media.xap"/>
+	    <object data="data:application/x-silverlight-2," type="application/x-silverlight-2">
+          <param name="initParams" value="mode=rec" />  
+		  <param name="source" value="Bin/Debug/Media.xap"/>
 		  <param name="onError" value="onSilverlightError" />
-		  <param name="background" value="white" />
+		  <param name="background" value="transparent" />
 		  <param name="minRuntimeVersion" value="4.0.50826.0" />
 		  <param name="autoUpgrade" value="true" />
+          <param name="windowless" value="true"/>
           
 		  <a href="http://go.microsoft.com/fwlink/?LinkID=149156&v=4.0.50826.0" style="text-decoration:none">
  			  <img src="http://go.microsoft.com/fwlink/?LinkId=161376" alt="Get Microsoft Silverlight" style="border-style:none"/>
