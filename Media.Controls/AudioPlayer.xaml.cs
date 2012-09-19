@@ -11,10 +11,11 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using System.IO;
 using WaveMSS;
+using System.ComponentModel;
 
 namespace Media.Controls
 {
-    public partial class AudioPlayer : UserControl
+    public partial class AudioPlayer : UserControl, INotifyPropertyChanged
     {
         public AudioPlayer()
         {
@@ -25,14 +26,16 @@ namespace Media.Controls
 
         private void Play(Stream DownloadedStream)
         {
-            MediaStreamSource wavMss = new WaveMediaStreamSource(DownloadedStream);
-            mediaElement.SetSource(wavMss);
-            mediaElement.Play();
+            stream = new WaveMediaStreamSource(DownloadedStream);
+            mediaElement.SetSource(stream);
+            //mediaElement.Play();
+            PauseIcon.Visibility = Visibility.Collapsed;
+            PlayIcon.Visibility = Visibility.Visible;
         }
 
         private void OpenStreamButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Source = new Uri("http://localhost/test.wav");
+            this.Source = new Uri("http://localhost/Store/test.wav");
         }
 
         private void PlayPauseButton_Click(object sender, RoutedEventArgs e)
@@ -40,10 +43,14 @@ namespace Media.Controls
             if (mediaElement.CurrentState == MediaElementState.Playing)
             {
                 mediaElement.Pause();
+                PauseIcon.Visibility = Visibility.Visible;
+                PlayIcon.Visibility = Visibility.Collapsed;
             }
             else if (mediaElement.CurrentState == MediaElementState.Paused || mediaElement.CurrentState == MediaElementState.Stopped)
             {
                 mediaElement.Play();
+                PauseIcon.Visibility = Visibility.Collapsed;
+                PlayIcon.Visibility = Visibility.Visible;
             }
         }
 
@@ -65,17 +72,42 @@ namespace Media.Controls
             }
         }
 
+        public TimeSpan Length
+        {
+            get
+            {
+                return _length;
+            }
+            set
+            {
+                _length = value;
+                if (PropertyChanged != null) PropertyChanged(this, new PropertyChangedEventArgs("Length"));
+            }
+        }
+        private TimeSpan _length;
+
+
         private Uri m_source;
-        public TransferManager m_downloader {get; private set;}
+        public TransferManager m_downloader { get; private set; }
+        private MediaStreamSource stream;
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            mediaElement.Position = new TimeSpan(0, 0, 2);
+            mediaElement.Position = TimeSpan.FromSeconds(1);
+            mediaElement.Play();
         }
 
         private void mediaElement_MediaOpened(object sender, RoutedEventArgs e)
         {
-            slider1.Maximum = mediaElement.NaturalDuration.TimeSpan.TotalSeconds;
+            slider1.Maximum = (int)mediaElement.NaturalDuration.TimeSpan.TotalSeconds * 1000;
+            mediaElement.Play();
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private void mediaElement_MediaEnded(object sender, RoutedEventArgs e)
+        {
+            mediaElement.Stop();
         }
     }
 }

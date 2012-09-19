@@ -201,6 +201,7 @@ namespace WaveMSS
                 throw new InvalidOperationException("The seek position is beyond the length of the stream");
             }
 
+            this.wavParser.MoveToChunkOffset(0);
             this.currentPosition = this.wavParser.WaveFormatEx.BufferSizeFromAudioDuration(seekToTime) + this.startPosition;
             this.currentTimeStamp = seekToTime;
             ReportSeekCompleted(seekToTime);

@@ -17,7 +17,7 @@ namespace Media.Converters
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             if (targetType != typeof(double)) throw new NotImplementedException();
-            double secs = ((TimeSpan)value).TotalSeconds;
+            double secs = ((TimeSpan)value).TotalMilliseconds;
             return secs;
         }
 
